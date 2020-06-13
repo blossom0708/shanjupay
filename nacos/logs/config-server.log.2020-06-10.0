@@ -1,0 +1,500 @@
+2020-06-10 23:38:34,125 INFO notifyConnectTimeout:200
+
+2020-06-10 23:38:34,126 INFO notifySocketTimeout:8000
+
+2020-06-10 23:38:34,127 INFO isHealthCheck:true
+
+2020-06-10 23:38:34,127 INFO maxHealthCheckFailCount:12
+
+2020-06-10 23:38:34,127 INFO maxContent:10485760
+
+2020-06-10 23:38:34,127 INFO spring.datasource.platform:mysql
+
+2020-06-10 23:38:34,222 INFO check master db.
+
+2020-06-10 23:38:35,153 INFO check db health.
+
+2020-06-10 23:38:35,318 WARN DumpService start
+
+2020-06-10 23:38:35,322 INFO start clear all config-info.
+
+2020-06-10 23:38:35,342 WARN clear all config-info failed.
+
+2020-06-10 23:38:35,350 INFO clear all config-info-tenant success.
+
+2020-06-10 23:38:35,462 INFO [all-dump] 9 / 9
+
+2020-06-10 23:38:35,462 INFO start clear all config-info-beta.
+
+2020-06-10 23:38:35,463 WARN clear all config-info-beta failed.
+
+2020-06-10 23:38:35,463 WARN clear all config-info-beta-tenant failed.
+
+2020-06-10 23:38:35,525 INFO start clear all config-info-tag.
+
+2020-06-10 23:38:35,526 WARN clear all config-info-tag failed.
+
+2020-06-10 23:38:35,526 WARN clear all config-info-tag-tenant failed.
+
+2020-06-10 23:38:36,289 INFO ServerListService address-server port:8848
+
+2020-06-10 23:38:36,289 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-06-10 23:38:36,290 WARN [serverlist] updated to [192.168.1.3]
+
+2020-06-10 23:38:45,171 INFO check master db.
+
+2020-06-10 23:38:45,171 INFO check db health.
+
+2020-06-10 23:38:55,192 INFO check db health.
+
+2020-06-10 23:38:55,199 INFO check master db.
+
+2020-06-10 23:39:05,207 INFO check db health.
+
+2020-06-10 23:39:05,515 INFO check master db.
+
+2020-06-10 23:39:15,223 INFO check db health.
+
+2020-06-10 23:39:15,528 INFO check master db.
+
+2020-06-10 23:39:25,246 INFO check db health.
+
+2020-06-10 23:39:25,545 INFO check master db.
+
+2020-06-10 23:39:35,270 INFO check db health.
+
+2020-06-10 23:39:35,561 INFO check master db.
+
+2020-06-10 23:39:45,293 INFO check db health.
+
+2020-06-10 23:39:45,576 INFO check master db.
+
+2020-06-10 23:39:55,315 INFO check db health.
+
+2020-06-10 23:39:55,589 INFO check master db.
+
+2020-06-10 23:40:05,335 INFO check db health.
+
+2020-06-10 23:40:05,603 INFO check master db.
+
+2020-06-10 23:40:15,348 INFO check db health.
+
+2020-06-10 23:40:15,619 INFO check master db.
+
+2020-06-10 23:40:25,364 INFO check db health.
+
+2020-06-10 23:40:25,635 INFO check master db.
+
+2020-06-10 23:40:35,380 INFO check db health.
+
+2020-06-10 23:40:35,650 INFO check master db.
+
+2020-06-10 23:40:45,396 INFO check db health.
+
+2020-06-10 23:40:45,667 INFO check master db.
+
+2020-06-10 23:40:55,409 INFO check db health.
+
+2020-06-10 23:40:55,682 INFO check master db.
+
+2020-06-10 23:41:05,428 INFO check db health.
+
+2020-06-10 23:41:05,695 INFO check master db.
+
+2020-06-10 23:41:15,442 INFO check db health.
+
+2020-06-10 23:41:15,712 INFO check master db.
+
+2020-06-10 23:41:25,465 INFO check db health.
+
+2020-06-10 23:41:25,733 INFO check master db.
+
+2020-06-10 23:41:35,487 INFO check db health.
+
+2020-06-10 23:41:35,746 INFO check master db.
+
+2020-06-10 23:41:45,515 INFO check db health.
+
+2020-06-10 23:41:45,760 INFO check master db.
+
+2020-06-10 23:41:55,528 INFO check db health.
+
+2020-06-10 23:41:55,773 INFO check master db.
+
+2020-06-10 23:42:05,542 INFO check db health.
+
+2020-06-10 23:42:05,787 INFO check master db.
+
+2020-06-10 23:42:15,557 INFO check db health.
+
+2020-06-10 23:42:15,805 INFO check master db.
+
+2020-06-10 23:42:25,573 INFO check db health.
+
+2020-06-10 23:42:25,820 INFO check master db.
+
+2020-06-10 23:42:35,588 INFO check db health.
+
+2020-06-10 23:42:35,834 INFO check master db.
+
+2020-06-10 23:42:45,605 INFO check db health.
+
+2020-06-10 23:42:45,849 INFO check master db.
+
+2020-06-10 23:42:55,619 INFO check db health.
+
+2020-06-10 23:42:55,864 INFO check master db.
+
+2020-06-10 23:43:05,632 INFO check db health.
+
+2020-06-10 23:43:05,883 INFO check master db.
+
+2020-06-10 23:43:15,645 INFO check db health.
+
+2020-06-10 23:43:15,900 INFO check master db.
+
+2020-06-10 23:43:25,662 INFO check db health.
+
+2020-06-10 23:43:25,913 INFO check master db.
+
+2020-06-10 23:47:33,548 INFO notifyConnectTimeout:200
+
+2020-06-10 23:47:33,549 INFO notifySocketTimeout:8000
+
+2020-06-10 23:47:33,549 INFO isHealthCheck:true
+
+2020-06-10 23:47:33,549 INFO maxHealthCheckFailCount:12
+
+2020-06-10 23:47:33,549 INFO maxContent:10485760
+
+2020-06-10 23:47:33,550 INFO spring.datasource.platform:mysql
+
+2020-06-10 23:47:33,596 INFO check master db.
+
+2020-06-10 23:47:34,378 INFO check db health.
+
+2020-06-10 23:47:34,510 WARN DumpService start
+
+2020-06-10 23:47:34,514 INFO start clear all config-info.
+
+2020-06-10 23:47:34,519 WARN clear all config-info failed.
+
+2020-06-10 23:47:34,528 INFO clear all config-info-tenant success.
+
+2020-06-10 23:47:34,647 INFO [all-dump] 9 / 9
+
+2020-06-10 23:47:34,647 INFO start clear all config-info-beta.
+
+2020-06-10 23:47:34,648 WARN clear all config-info-beta failed.
+
+2020-06-10 23:47:34,648 WARN clear all config-info-beta-tenant failed.
+
+2020-06-10 23:47:34,702 INFO start clear all config-info-tag.
+
+2020-06-10 23:47:34,703 WARN clear all config-info-tag failed.
+
+2020-06-10 23:47:34,703 WARN clear all config-info-tag-tenant failed.
+
+2020-06-10 23:47:35,078 INFO ServerListService address-server port:8848
+
+2020-06-10 23:47:35,078 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-06-10 23:47:35,079 WARN [serverlist] updated to [192.168.1.3]
+
+2020-06-10 23:47:44,395 INFO check master db.
+
+2020-06-10 23:47:44,395 INFO check db health.
+
+2020-06-10 23:47:54,414 INFO check db health.
+
+2020-06-10 23:47:54,422 INFO check master db.
+
+2020-06-10 23:48:04,437 INFO check db health.
+
+2020-06-10 23:48:04,437 INFO check master db.
+
+2020-06-10 23:48:14,450 INFO check db health.
+
+2020-06-10 23:48:14,450 INFO check master db.
+
+2020-06-10 23:48:24,471 INFO check master db.
+
+2020-06-10 23:48:24,471 INFO check db health.
+
+2020-06-10 23:48:34,485 INFO check db health.
+
+2020-06-10 23:48:34,487 INFO check master db.
+
+2020-06-10 23:48:44,505 INFO check master db.
+
+2020-06-10 23:48:44,507 INFO check db health.
+
+2020-06-10 23:48:54,523 INFO check db health.
+
+2020-06-10 23:48:54,525 INFO check master db.
+
+2020-06-10 23:49:04,538 INFO check master db.
+
+2020-06-10 23:49:04,545 INFO check db health.
+
+2020-06-10 23:49:14,554 INFO check master db.
+
+2020-06-10 23:49:14,558 INFO check db health.
+
+2020-06-10 23:49:24,572 INFO check master db.
+
+2020-06-10 23:49:24,574 INFO check db health.
+
+2020-06-10 23:49:34,588 INFO check master db.
+
+2020-06-10 23:49:34,588 INFO check db health.
+
+2020-06-10 23:49:44,602 INFO check master db.
+
+2020-06-10 23:49:44,604 INFO check db health.
+
+2020-06-10 23:49:54,615 INFO check master db.
+
+2020-06-10 23:49:54,621 INFO check db health.
+
+2020-06-10 23:50:04,629 INFO check master db.
+
+2020-06-10 23:50:04,639 INFO check db health.
+
+2020-06-10 23:50:14,646 INFO check master db.
+
+2020-06-10 23:50:14,654 INFO check db health.
+
+2020-06-10 23:50:24,671 INFO check db health.
+
+2020-06-10 23:50:24,963 INFO check master db.
+
+2020-06-10 23:50:34,686 INFO check db health.
+
+2020-06-10 23:50:34,983 INFO check master db.
+
+2020-06-10 23:50:44,701 INFO check db health.
+
+2020-06-10 23:50:44,996 INFO check master db.
+
+2020-06-10 23:50:54,720 INFO check db health.
+
+2020-06-10 23:50:55,009 INFO check master db.
+
+2020-06-10 23:51:04,735 INFO check db health.
+
+2020-06-10 23:51:05,024 INFO check master db.
+
+2020-06-10 23:51:14,749 INFO check db health.
+
+2020-06-10 23:51:15,042 INFO check master db.
+
+2020-06-10 23:51:24,764 INFO check db health.
+
+2020-06-10 23:51:25,057 INFO check master db.
+
+2020-06-10 23:51:34,780 INFO check db health.
+
+2020-06-10 23:51:35,072 INFO check master db.
+
+2020-06-10 23:51:44,793 INFO check db health.
+
+2020-06-10 23:51:45,087 INFO check master db.
+
+2020-06-10 23:51:54,811 INFO check db health.
+
+2020-06-10 23:51:55,101 INFO check master db.
+
+2020-06-10 23:52:04,825 INFO check db health.
+
+2020-06-10 23:52:05,122 INFO check master db.
+
+2020-06-10 23:52:14,839 INFO check db health.
+
+2020-06-10 23:52:15,437 INFO check master db.
+
+2020-06-10 23:52:24,853 INFO check db health.
+
+2020-06-10 23:52:25,749 INFO check master db.
+
+2020-06-10 23:52:34,865 INFO check db health.
+
+2020-06-10 23:52:35,763 INFO check master db.
+
+2020-06-10 23:52:44,879 INFO check db health.
+
+2020-06-10 23:52:45,778 INFO check master db.
+
+2020-06-10 23:52:54,893 INFO check db health.
+
+2020-06-10 23:52:55,794 INFO check master db.
+
+2020-06-10 23:53:04,907 INFO check db health.
+
+2020-06-10 23:53:05,806 INFO check master db.
+
+2020-06-10 23:53:14,923 INFO check db health.
+
+2020-06-10 23:53:15,819 INFO check master db.
+
+2020-06-10 23:53:24,939 INFO check db health.
+
+2020-06-10 23:53:26,132 INFO check master db.
+
+2020-06-10 23:53:34,951 INFO check db health.
+
+2020-06-10 23:53:36,146 INFO check master db.
+
+2020-06-10 23:53:44,964 INFO check db health.
+
+2020-06-10 23:53:46,163 INFO check master db.
+
+2020-06-10 23:53:54,979 INFO check db health.
+
+2020-06-10 23:53:56,178 INFO check master db.
+
+2020-06-10 23:54:04,995 INFO check db health.
+
+2020-06-10 23:54:06,497 INFO check master db.
+
+2020-06-10 23:54:15,008 INFO check db health.
+
+2020-06-10 23:54:16,512 INFO check master db.
+
+2020-06-10 23:54:25,023 INFO check db health.
+
+2020-06-10 23:54:26,525 INFO check master db.
+
+2020-06-10 23:54:35,036 INFO check db health.
+
+2020-06-10 23:54:36,538 INFO check master db.
+
+2020-06-10 23:54:45,049 INFO check db health.
+
+2020-06-10 23:54:46,851 INFO check master db.
+
+2020-06-10 23:54:55,066 INFO check db health.
+
+2020-06-10 23:54:56,864 INFO check master db.
+
+2020-06-10 23:55:05,080 INFO check db health.
+
+2020-06-10 23:55:06,875 INFO check master db.
+
+2020-06-10 23:55:15,395 INFO check db health.
+
+2020-06-10 23:55:16,893 INFO check master db.
+
+2020-06-10 23:55:25,412 INFO check db health.
+
+2020-06-10 23:55:26,906 INFO check master db.
+
+2020-06-10 23:55:35,424 INFO check db health.
+
+2020-06-10 23:55:36,924 INFO check master db.
+
+2020-06-10 23:55:45,442 INFO check db health.
+
+2020-06-10 23:55:46,940 INFO check master db.
+
+2020-06-10 23:55:55,455 INFO check db health.
+
+2020-06-10 23:55:56,953 INFO check master db.
+
+2020-06-10 23:56:05,469 INFO check db health.
+
+2020-06-10 23:56:06,969 INFO check master db.
+
+2020-06-10 23:56:15,482 INFO check db health.
+
+2020-06-10 23:56:16,985 INFO check master db.
+
+2020-06-10 23:56:25,500 INFO check db health.
+
+2020-06-10 23:56:26,999 INFO check master db.
+
+2020-06-10 23:56:35,514 INFO check db health.
+
+2020-06-10 23:56:37,012 INFO check master db.
+
+2020-06-10 23:56:45,527 INFO check db health.
+
+2020-06-10 23:56:47,031 INFO check master db.
+
+2020-06-10 23:56:55,540 INFO check db health.
+
+2020-06-10 23:56:57,044 INFO check master db.
+
+2020-06-10 23:57:05,555 INFO check db health.
+
+2020-06-10 23:57:07,058 INFO check master db.
+
+2020-06-10 23:57:15,567 INFO check db health.
+
+2020-06-10 23:57:17,072 INFO check master db.
+
+2020-06-10 23:57:25,580 INFO check db health.
+
+2020-06-10 23:57:27,086 INFO check master db.
+
+2020-06-10 23:57:35,596 INFO check db health.
+
+2020-06-10 23:57:37,101 INFO check master db.
+
+2020-06-10 23:57:45,628 INFO check db health.
+
+2020-06-10 23:57:47,114 INFO check master db.
+
+2020-06-10 23:57:55,650 INFO check db health.
+
+2020-06-10 23:57:57,137 INFO check master db.
+
+2020-06-10 23:58:05,670 INFO check db health.
+
+2020-06-10 23:58:07,151 INFO check master db.
+
+2020-06-10 23:58:15,687 INFO check db health.
+
+2020-06-10 23:58:17,166 INFO check master db.
+
+2020-06-10 23:58:25,700 INFO check db health.
+
+2020-06-10 23:58:27,179 INFO check master db.
+
+2020-06-10 23:58:35,713 INFO check db health.
+
+2020-06-10 23:58:37,191 INFO check master db.
+
+2020-06-10 23:58:45,729 INFO check db health.
+
+2020-06-10 23:58:47,203 INFO check master db.
+
+2020-06-10 23:58:55,745 INFO check db health.
+
+2020-06-10 23:58:57,218 INFO check master db.
+
+2020-06-10 23:59:05,760 INFO check db health.
+
+2020-06-10 23:59:07,236 INFO check master db.
+
+2020-06-10 23:59:15,775 INFO check db health.
+
+2020-06-10 23:59:17,251 INFO check master db.
+
+2020-06-10 23:59:25,790 INFO check db health.
+
+2020-06-10 23:59:27,265 INFO check master db.
+
+2020-06-10 23:59:35,804 INFO check db health.
+
+2020-06-10 23:59:37,279 INFO check master db.
+
+2020-06-10 23:59:45,817 INFO check db health.
+
+2020-06-10 23:59:47,293 INFO check master db.
+
+2020-06-10 23:59:55,830 INFO check db health.
+
+2020-06-10 23:59:57,306 INFO check master db.
+
