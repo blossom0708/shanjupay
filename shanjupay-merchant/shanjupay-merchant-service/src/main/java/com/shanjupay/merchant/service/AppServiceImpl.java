@@ -39,6 +39,7 @@ public class AppServiceImpl implements AppService {
     @Override
     public AppDTO createApp(Long merchantId, AppDTO appDTO) throws BusinessException {
 
+        // 正确性判断
         if(merchantId==null || appDTO== null || StringUtils.isBlank(appDTO.getAppName())){
             throw new BusinessException(CommonErrorCode.E_300009);
         }

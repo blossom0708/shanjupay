@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shanjupay-merchant-api" />
+        <module name="shanjupay-transaction-api" />
+        <module name="shanjupay-gateway-service" />
+        <module name="service2-server" />
+        <module name="rocketmq-producer" />
+        <module name="mybatis" />
+        <module name="shanjupay-payment-agent-service" />
+        <module name="shanjupay-payment-agent-api" />
+        <module name="pay-mybatis" />
+        <module name="shanjupay-operation-application" />
+        <module name="shanjupay-transaction-service" />
+        <module name="shanjupay-uaa-service" />
+        <module name="shanjupay-merchant-service" />
+        <module name="test-freemarker" />
+        <module name="service2-api" />
+        <module name="shanjupay-user-api" />
+        <module name="shanjupay-common" />
+        <module name="nacos-restful-consumer" />
+        <module name="shanjupay-user-service" />
+        <module name="rocketmq-consumer" />
+        <module name="shanjupay-merchant-application" />
+        <module name="sailing" />
+        <module name="shanjupay-uaa-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itcast-mp-springboot" target="1.5" />
+      <module name="nacos-dubbo-service2" target="1.8" />
+      <module name="nacos-restful-provider" target="1.8" />
+      <module name="pay-mybatis" target="1.8" />
+      <module name="payment-agent-redis" target="1.8" />
+      <module name="shanjupay (1)" target="1.8" />
+      <module name="shanjupay (2)" target="1.8" />
+      <module name="test-redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis" options="-parameters" />
+      <module name="nacos-discovery" options="-parameters" />
+      <module name="nacos-dubbo-service2" options="-parameters" />
+      <module name="nacos-restful-consumer" options="-parameters" />
+      <module name="nacos-restful-provider" options="-parameters" />
+      <module name="pay-mybatis" options="-parameters" />
+      <module name="payment-agent-redis" options="-parameters" />
+      <module name="rocketmq-consumer" options="-parameters" />
+      <module name="rocketmq-producer" options="-parameters" />
+      <module name="sailing" options="-parameters" />
+      <module name="service2-api" options="-parameters" />
+      <module name="service2-server" options="-parameters" />
+      <module name="shanjupay" options="-parameters" />
+      <module name="shanjupay (1)" options="-parameters" />
+      <module name="shanjupay (2)" options="-parameters" />
+      <module name="shanjupay-common" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_121/jre/lib/jce.jar&quot;" />
+      <module name="shanjupay-gateway" options="-parameters" />
+      <module name="shanjupay-gateway-service" options="-parameters" />
+      <module name="shanjupay-merchant" options="-parameters" />
+      <module name="shanjupay-merchant-api" options="-parameters" />
+      <module name="shanjupay-merchant-application" options="-parameters" />
+      <module name="shanjupay-merchant-service" options="-parameters" />
+      <module name="shanjupay-operation-application" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_121/jre/lib/jce.jar&quot;" />
+      <module name="shanjupay-payment-agent" options="-parameters" />
+      <module name="shanjupay-payment-agent-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_121/jre/lib/jce.jar&quot;" />
+      <module name="shanjupay-payment-agent-service" options="-parameters" />
+      <module name="shanjupay-transaction" options="-parameters" />
+      <module name="shanjupay-transaction-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_121/jre/lib/jce.jar&quot;" />
+      <module name="shanjupay-transaction-service" options="-parameters" />
+      <module name="shanjupay-uaa" options="-parameters" />
+      <module name="shanjupay-uaa-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_121/jre/lib/jce.jar&quot;" />
+      <module name="shanjupay-uaa-service" options="-parameters" />
+      <module name="shanjupay-user" options="-parameters" />
+      <module name="shanjupay-user-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_121/jre/lib/jce.jar&quot;" />
+      <module name="shanjupay-user-service" options="-parameters" />
+      <module name="test-freemarker" options="-parameters" />
+      <module name="test-redis" options="-parameters" />
+      <module name="test-rocketmq" options="-parameters" />
+    </option>
+  </component>
+</project>

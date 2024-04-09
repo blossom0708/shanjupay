@@ -20,10 +20,10 @@ import java.util.List;
 @Api(value = "商户平台-应用管理", tags = "商户平台-应用相关", description = "商户平台-应用相关")
 @RestController
 public class AppController {
+    // 商户平台应用创建应用接口
 
     @Reference
     AppService appService;
-
 
     @ApiOperation("商户创建应用")
     @ApiImplicitParams({

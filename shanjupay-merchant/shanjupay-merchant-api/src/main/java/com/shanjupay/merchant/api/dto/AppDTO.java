@@ -10,6 +10,8 @@ import java.io.Serializable;
 @ApiModel(value="AppDTO", description="")
 public class AppDTO implements Serializable {
 
+    //商户数据库的app表
+    //DTO类型的对象作为service层传输的对象
     private static final long serialVersionUID = 1L;
 
     private String appId;

@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Administrator
+ * 交易服务(shanjupay-transaction-service)	实现交易服务的接口实现
  * @version 1.0
  **/
 @SpringBootApplication

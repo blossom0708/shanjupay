@@ -76,10 +76,6 @@ public class ResourceController {
         return resourceService.pageApplicationByConditions(query, pageNo, pageSize);
     }
 
-
-
-
-
     @ApiOperation("根据权限加载指定应用的资源")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "privileageCodes", value = "权限集合",required = true,allowMultiple = true, dataType = "String", paramType = "query"),

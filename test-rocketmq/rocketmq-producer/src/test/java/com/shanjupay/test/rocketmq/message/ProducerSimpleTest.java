@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Date;
+import java.util.UUID;
 
 /**
  * @author Administrator
@@ -53,4 +54,18 @@ public class ProducerSimpleTest {
 
         producerSimple.sendMsgByJsonDelay("my-topic-obj",orderExt);
     }
+
+    //测试发送异步消息
+    @Test
+    public void testSendAsyncMsgByJsonDelay() throws Exception {
+        OrderExt orderExt = new OrderExt();
+        orderExt.setId(UUID.randomUUID().toString());
+        orderExt.setCreateTime(new Date());
+        orderExt.setMoney(168L);
+        orderExt.setTitle("测试订单");
+        this.producerSimple.sendAsyncMsgByJsonDelay("my‐topic‐obj", orderExt);
+        System.out.println("end...");
+        Thread.sleep(20000);
+    }
+
 }

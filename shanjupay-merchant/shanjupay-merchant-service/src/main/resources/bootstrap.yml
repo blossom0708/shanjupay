@@ -1,6 +1,7 @@
 server:
   port: 56040 #启动端口 命令行注入
-
+  servlet:
+    context-path: /merchant
 nacos:
   server:
     addr: 127.0.0.1:8848
@@ -14,12 +15,12 @@ spring:
     nacos:
       discovery:
         server-addr: ${nacos.server.addr}
-        namespace: a1f8e863-3117-48c4-9dd3-e9ddc2af90a8
+        namespace: 416dd4fd-f3e7-4059-b48f-58bbe4be965f
         cluster-name: DEFAULT
       config:
         server-addr: ${nacos.server.addr} # 配置中心地址
         file-extension: yaml
-        namespace: a1f8e863-3117-48c4-9dd3-e9ddc2af90a8 # 命令行注入
+        namespace: 416dd4fd-f3e7-4059-b48f-58bbe4be965f # 命令行注入
         group: SHANJUPAY_GROUP # 聚合支付业务组
         ext-config:
         -

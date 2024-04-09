@@ -91,7 +91,8 @@ public class MerchantServiceImpl implements MerchantService {
      */
     @Override
     public MerchantDTO createMerchant(MerchantDTO merchantDTO) throws BusinessException {
-        //校验参数的合法性
+        // 接口测试 使用不同测试用例进行测试并返回状态码
+		//校验参数的合法性
         if(merchantDTO == null){
             throw new BusinessException(CommonErrorCode.E_100108);
         }
@@ -147,6 +148,7 @@ public class MerchantServiceImpl implements MerchantService {
 
         //租户id在商户表唯一
         //根据租户id从商户表查询，如果存在记录则不允许添加商户
+		// 数据由服务层流向持久层 DTO -- Mapper
         Integer count1 = merchantMapper.selectCount(new LambdaQueryWrapper<Merchant>().eq(Merchant::getTenantId, tenantId));
         if(count1>0){
             throw new BusinessException(CommonErrorCode.E_200017);
@@ -163,6 +165,7 @@ public class MerchantServiceImpl implements MerchantService {
         //审核状态为0-未进行资质申请
         merchant.setAuditStatus("0");
         //调用mapper向数据库写入记录
+		// 数据由服务层流向持久层 DTO -- Mapper
         merchantMapper.insert(merchant);
 
         //新增门店

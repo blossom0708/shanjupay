@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class PayProducer {
-
+    //发送方
     //订单结果查询主题
     private static final String TOPIC_ORDER = "TP_PAYMENT_ORDER";
 

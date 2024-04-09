@@ -13,6 +13,7 @@ import java.util.List;
  **/
 @Mapper
 public interface AppCovert {
+    // 定义AppCovert负责对象转换
 
     AppCovert INSTANCE = Mappers.getMapper(AppCovert.class);
 

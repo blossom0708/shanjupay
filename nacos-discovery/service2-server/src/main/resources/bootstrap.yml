@@ -1,0 +1,32 @@
+server:
+  port: 56040 #启动端口 命令行注入
+
+spring:
+  # SpringCloud的相关配置
+  application:
+    # 用于 Spring Cloud 服务注册和发现
+    name: dubbo-service2
+  main:
+    allow-bean-definition-overriding: true # Spring Boot 2.1 需要设定
+  cloud:
+    nacos:
+      # Nacos 服务发现与注册配置
+      discovery:
+        server-addr: 127.0.0.1:8848
+dubbo:
+  # dubbo 服务注册中心
+  scan:
+    # dubbo 服务扫描基准包
+    base-packages: com.itheima.microservice.service2.service
+  protocol:
+    # dubbo 协议
+    name: dubbo
+    # dubbo 协议端口
+    port: 20891
+  registry:
+    # dubbo 服务注册中心配置
+    address: nacos://127.0.0.1:8848
+  application:
+    qos-enable: false #dubbo运维服务是否开启
+  consumer:
+    check: false  #启动时是否检查依赖的服务

@@ -11,16 +11,17 @@ spring:
     name: merchant-application
   main:
     allow-bean-definition-overriding: true # Spring Boot 2.1 需要设定
+
   cloud:
     nacos:
       discovery:
         server-addr: ${nacos.server.addr}
-        namespace: a1f8e863-3117-48c4-9dd3-e9ddc2af90a8
+        namespace: 416dd4fd-f3e7-4059-b48f-58bbe4be965f
         cluster-name: DEFAULT
       config:
         server-addr: ${nacos.server.addr} # 配置中心地址
         file-extension: yaml
-        namespace: a1f8e863-3117-48c4-9dd3-e9ddc2af90a8 # 命令行注入
+        namespace: 416dd4fd-f3e7-4059-b48f-58bbe4be965f # 命令行注入
         group: SHANJUPAY_GROUP # 聚合支付业务组
         ext-config:
         -
@@ -40,7 +41,8 @@ spring:
       max-file-size: 1MB
       # 最大支持请求大小
       max-request-size: 30MB
-
+mybatis-plus:
+  config-location: classpath:mybatis-config.xml
 dubbo:
   scan:
     # dubbo 服务扫描基准包

@@ -36,11 +36,8 @@ public class StoreController {
     //"向%s付款"
     @Value("${shanjupay.c2b.body}")
     String body;
-
-
     @Reference
     MerchantService merchantService;
-
     @Reference
     TransactionService transactionService;
 

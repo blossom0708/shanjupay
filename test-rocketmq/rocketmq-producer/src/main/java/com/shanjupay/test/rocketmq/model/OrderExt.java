@@ -9,6 +9,7 @@ import java.util.Date;
 
 /**
  * @author Administrator
+ * @class 对消息格式进行自定义
  * @version 1.0
  **/
 @Data

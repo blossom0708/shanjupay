@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Administrator
+ * @class 消费端在接收到JSON自动转换成对象
  * @version 1.0
  **/
 @Component

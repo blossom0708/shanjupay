@@ -21,6 +21,7 @@ import org.springframework.stereotype.Component;
 @RocketMQMessageListener(topic = "TP_PAYMENT_ORDER",consumerGroup="CID_PAYMENT_CONSUMER")
 @Slf4j
 public class PayConsumer implements RocketMQListener<MessageExt> {
+    //接收方
 
     @Autowired
     PayChannelAgentService payChannelAgentService;

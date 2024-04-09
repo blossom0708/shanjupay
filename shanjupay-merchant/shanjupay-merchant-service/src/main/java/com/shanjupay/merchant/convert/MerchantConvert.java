@@ -27,7 +27,6 @@ public interface MerchantConvert {
     //list之间也可以转换，很entity的List转成MerchantDTO list
     List<MerchantDTO> entityList2dtoList(List<Merchant> merchants);
 
-
     public static void main(String[] args) {
         //将dto转成entity
         Merchant merchant  =new Merchant();

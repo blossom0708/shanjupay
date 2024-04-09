@@ -13,7 +13,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class QRCodeDto implements Serializable {
 
-    private Long merchantId;
+    private Long merchantId;//商户id
     private String appId;
     private Long storeId;
     private String subject;//商品标题

@@ -11,10 +11,13 @@ import java.util.List;
 
 /**
  * Created by Administrator.
+ * 交易服务API(shanjupay-transaction-api)	定义交易服务提供的接口
+ * 第二层 承接来自 shanjupay-merchant-application平台的接口服务
  */
 public interface MerchantService {
 
     //根据 id查询商户
+	// DTO类型的对象作为service层传输的对象
     public MerchantDTO queryMerchantById(Long id);
 
     /**
@@ -38,8 +41,6 @@ public interface MerchantService {
      * @throws BusinessException
      */
     void applyMerchant(Long merchantId,MerchantDTO merchantDTO) throws BusinessException;
-
-
 
     /**
      * 新增门店
