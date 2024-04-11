@@ -1,6 +1,8 @@
 server:
   port: 57010 #启动端口 命令行注入
   max-http-header-size: 100KB
+  servlet:
+    context-path: /merchant-application
 
 nacos:
   server:
