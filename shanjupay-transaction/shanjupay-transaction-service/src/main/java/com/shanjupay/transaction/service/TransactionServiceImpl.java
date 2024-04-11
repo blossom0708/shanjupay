@@ -57,7 +57,7 @@ public class TransactionServiceImpl implements TransactionService {
     String oauth2Token;
 
 
-    @Reference
+    @Autowired
     AppService appService;
 
     @Reference

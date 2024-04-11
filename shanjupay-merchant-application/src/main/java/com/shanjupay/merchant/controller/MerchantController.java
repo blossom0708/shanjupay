@@ -14,7 +14,7 @@ import com.shanjupay.merchant.vo.MerchantDetailVO;
 import com.shanjupay.merchant.vo.MerchantRegisterVO;
 import io.swagger.annotations.*;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -32,10 +32,10 @@ public class MerchantController {
     @org.apache.dubbo.config.annotation.Reference  //注入的远程调用的接口
     MerchantService merchantService;
 
-    @Autowired //注入本地的bean
+    @Reference //注入本地的bean
     SmsService smsService;
 
-    @Autowired
+    @Reference
     FileService fileService;
 
     @ApiOperation(value="根据id查询商户信息")

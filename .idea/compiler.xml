@@ -28,7 +28,6 @@
         <module name="shanjupay-user-service" />
         <module name="rocketmq-consumer" />
         <module name="shanjupay-merchant-application" />
-        <module name="sailing" />
         <module name="shanjupay-uaa-api" />
       </profile>
     </annotationProcessing>
@@ -38,6 +37,7 @@
       <module name="nacos-restful-provider" target="1.8" />
       <module name="pay-mybatis" target="1.8" />
       <module name="payment-agent-redis" target="1.8" />
+      <module name="sailing" target="1.8" />
       <module name="shanjupay (1)" target="1.8" />
       <module name="shanjupay (2)" target="1.8" />
       <module name="test-redis" target="1.8" />

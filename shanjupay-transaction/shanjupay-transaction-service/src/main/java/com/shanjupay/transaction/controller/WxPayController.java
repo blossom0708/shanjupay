@@ -109,6 +109,7 @@ public class WxPayController {
         return new ModelAndView("wxpay",jsapiPayParam);
     }
 
+    // 实现调用统一下单接口，得到微信响应的数据
     class  WXPayConfigCustom extends WXPayConfig{
 
         @Override

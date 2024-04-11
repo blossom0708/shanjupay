@@ -1,6 +1,5 @@
 package com.shanjupay.gateway.config;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.provider.token.TokenStore;
@@ -10,8 +9,8 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @Configuration
 public class JWTConfig {
 
-    @Value("${siging-key}")
-    private String SIGNING_KEY;
+    //@Value("${siging-key}")
+    private String SIGNING_KEY = "shanju123";
 
     @Bean
     public TokenStore tokenStore() {

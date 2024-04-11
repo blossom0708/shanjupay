@@ -232,6 +232,7 @@ public class PayChannelAgentServiceImpl implements PayChannelAgentService {
             //支付渠道参数
             paymentResponseDTO.setContent(wxConfigParam);
             //msg
+            //发送支付结果查询延迟消息队列
             paymentResponseDTO.setMsg("WX_JSAPI");
             payProducer.payOrderNotice(paymentResponseDTO);
 
